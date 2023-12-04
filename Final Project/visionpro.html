@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Vision Pro - Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-dTckYryrydSYG7tgIhC9HNvN1KxLtZP4T77w+8WA51HaCCuRlgA5O8eXzX1vnzzeFmPMGdOKCKIKZV9ZlTC7R2A=="
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/visionpro.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-o7Bbzq2a7z2JG1ubqUyV8w8L5gUNg5U7R+dlT81MbcA=" crossorigin="anonymous"></script>
+    <script src="./js/visionpro.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/js.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Ephesis&family=Nanum+Myeongjo&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;1,6..12,300;1,6..12,400&family=Roboto+Mono:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header"></header>
+    <!-- First Section -->
+    <section class="first-section">
+        <div class="content">
+            <h1>TAKE A CLOSER LOOK</h1>
+            <p>Explore our cutting-edge Product and learn more about our Vision.</p>
+            <div class="details-container">
+                <!-- Tabs -->
+                <div class="tabs">
+                    <button class="tab" onclick="openDetail('enclosure')">Enclosure</button>
+                    <button class="tab" onclick="openDetail('cameras_sensors')">Cameras and Sensors</button>
+                    <button class="tab" onclick="openDetail('audio_straps')">Audio Straps</button>
+                    <button class="tab" onclick="openDetail('head_band')">Head Band</button>
+                    <button class="tab" onclick="openDetail('displays')">Displays</button>
+                    <button class="tab" onclick="openDetail('light_seal')">Light Seal</button>
+                    <button class="tab" onclick="openDetail('digital_crown')">Digital Crown</button>
+                    <button class="tab" onclick="openDetail('top_button')">Top Button</button>
+                    <!-- Add more tabs as needed -->
+                </div>
+                <!-- Accordions -->
+                <div class="accordion" id="enclosure">
+                    <img src="./img/encloser.png" alt="Enclosure">
+                </div>
+                <div class="accordion" id="cameras_sensors">
+                    <img src="./img/cameras_sensors.png" alt="Cameras and Sensors">
+                </div>
+                <div class="accordion" id="audio_straps">
+                    <img src="./img/audio_straps.png" alt="Audio Straps">
+                </div>
+                <div class="accordion" id="head_band">
+                    <img src="./img/head_band.png" alt="Head Band">
+                </div>
+                <div class="accordion" id="displays">
+                    <img src="./img/displays.png" alt="Displays">
+                </div>
+                <div class="accordion" id="light_seal">
+                    <img src="./img/light_seal.png" alt="Light Seal">
+                </div>
+                <div class="accordion" id="digital_crown">
+                    <img src="./img/digital_crown.png" alt="Digital Crown">
+                </div>
+                <div class="accordion" id="top_button">
+                    <img src="./img/top_button.png" alt="Top Button">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="video-container">
+            <video loop muted autoplay>
+                <source src="./img/video1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="content">
+            <h1>Your apps live in your space.</h1>
+            <p>With Apple Vision Pro, you have an infinite canvas that transforms how you use the apps you love. Arrange apps anywhere and scale them to the perfect size, making the workspace of your dreams a reality — all while staying present in the world around you. Browse the web in Safari, create a to-do list in Notes, chat in Messages, and seamlessly move between them with a glance.</p>
+        </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="section">
+        <div class="video-container">
+            <video loop muted autoplay>
+                <source src="./img/video2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="content">
+            <h1>An immersive way to experience entertainment.</h1>
+            <p>Apple Vision Pro can transform any room into your own personal theater. Expand your movies, shows, and games up to the perfect size while feeling like you’re part of the action with Spatial Audio. And with more pixels than a 4K TV for each eye, you can enjoy stunning content wherever you are — whether that’s a long flight or the couch at home.</p>
+        </div>
+    </section>
+
+    <!-- Section 3 -->
+    <section class="section">
+        <div class="video-container">
+            <video loop muted autoplay>
+                <source src="./img/video3.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="content">
+            <h1>Your memories come alive.</h1>
+            <p>Apple Vision Pro is Apple’s first 3D camera. You can capture magical spatial photos and spatial videos in 3D, then relive those cherished moments like never before with immersive Spatial Audio. Your existing library of photos and videos looks incredible at remarkable scale. And panoramas wrap around you — making you feel like you’re standing right where you took them. You can also take spatial videos with iPhone 15 Pro, then view them on Apple Vision Pro.*</p>
+        </div>
+    </section>
+
+    <!-- Section 4 -->
+    <section class="section">
+        <div class="video-container">
+            <video loop muted autoplay>
+                <source src="./img/video4.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="content">
+            <h1>Make meetings more meaningful.</h1>
+            <p>Apple Vision Pro makes it easy to collaborate and connect wherever you are. FaceTime video tiles are life-size, and as new people join, the call simply expands in your room. Within FaceTime, you can also use apps to collaborate with colleagues on the same documents simultaneously.</p>
+        </div>
+    </section>
+        <!-- Final Section -->
+<section id="final-details" class="section funky-section">
+    <div class="content">
+        <h1 class="funky-title">Get Your Apple Vision Pro Now!</h1>
+        <p class="funky-text">Experience the future of technology with Apple Vision Pro. Transform your digital life with immersive experiences, stunning visuals, and groundbreaking features. Don't miss out!</p>
+        <p class="funky-text">Available Now - Limited Stock</p>
+    </div>
+</section>
+
+<!-- Purchase Details Section -->
+<section id="purchase-details" class="section funky-section">
+    <div class="content">
+        <h1 class="funky-title">Purchase Details</h1>
+        <p class="funky-text">Ready to make a purchase? Here are the details:</p>
+        <ul class="funky-list">
+            <li><strong>Price:</strong> $XXXX</li>
+            <li><strong>Available Model:</strong> Pro</li>
+            <li><strong>Where to Buy:</strong> Apple Stores, Authorized Retailers, Online Store</li>
+        </ul>
+        <p class="funky-text">Choose the Apple Vision Pro that suits your needs and enhance your digital lifestyle today!</p>
+    </div>
+</section>
+<footer id="footer"></footer>
+
+</body>
+</html>

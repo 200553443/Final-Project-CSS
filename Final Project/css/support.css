@@ -1,0 +1,85 @@
+.image-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-section img {
+    max-width: 100%;
+}
+
+.apple-support-section {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.apple-support-section h2 {
+    font-family: 'Ephesis', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.apple-support-section p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    color: #fff;
+}
+
+.map-container {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.support-options {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.support-option {
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.support-option:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+
+.support-option h3 {
+    font-family: 'Ephesis', cursive;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.support-option h3:hover {
+    text-decoration: underline;
+}
+
+.support-option p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Vision Pro - Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-dTckYryrydSYG7tgIhC9HNvN1KxLtZP4T77w+8WA51HaCCuRlgA5O8eXzX1vnzzeFmPMGdOKCKIKZV9ZlTC7R2A==" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/home.css"> <!-- Link to your home.css file -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-o7Bbzq2a7z2JG1ubqUyV8w8L5gUNg5U7R+dlT81MbcA=" crossorigin="anonymous"></script>
+    <script src="./js/slider.js"></script> <!-- Link to your JavaScript file -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/js.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Ephesis&family=Nanum+Myeongjo&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;1,6..12,300;1,6..12,400&family=Roboto+Mono:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header"></header>
+
+    <!-- First Section -->
+    <section class="first-section">
+        <video class="background-video" autoplay loop muted playsinline>
+            <source src="./img/Apple Vision Pro Reveal (4K).mp4" type="video/mp4"> <!-- Replace with your actual video file -->
+        </video>
+        <div class="content">
+            <h1>Apple Vision Pro</h1>
+            <p>Explore our cutting-edge products and learn more about our vision.</p>
+            <div class="dropdown">
+                <button class="cta-button">Details</button>
+                <div class="dropdown-content">
+                    <ul>
+                        <li><strong>Transformed Apps:</strong> Experience familiar apps redesigned to seamlessly integrate with your surroundings, providing an immersive experience.</li>
+                        <li><strong>iCloud Sync:</strong> Your content is automatically synchronized across all your Apple devices, ensuring a seamless and unified experience.</li>
+                        <li><strong>Enclosure:</strong> A singular piece of three-dimensionally formed laminated glass flows into an aluminum alloy frame that curves to wrap around your face, combining durability with elegance.</li>
+                        <li><strong>Light Seal:</strong> The Light Seal gently flexes to conform to your face, delivering a precise fit while effectively blocking out stray light, enhancing the visual experience.</li>
+                        <li><strong>Head Band:</strong> The Head Band provides cushioning, breathability, and stretch. The Fit Dial allows you to adjust Apple Vision Pro precisely to your head, ensuring optimal comfort.</li>
+                        <li><strong>External Battery:</strong> The external battery offers up to 2 hours of use and all-day use when plugged in, providing flexibility for extended usage.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Second Section -->
+    <section class="second-section">
+        <h2>Lets Dive into Vision</h2>
+        <div class="image-slider">
+            <div class="slide">
+                <img src="./img/app_store__ge30nsef8xui_large.jpg" alt="Featured Product 1" class="slider-image">
+                <div class="image-caption">Immersive Apps</div>
+            </div>
+            <div class="slide">
+                <img src="./img/apps_selection__d5oucgbrc5me_large.jpg" alt="Featured Product 2" class="slider-image">
+                <div class="image-caption">Seamless Sync</div>
+            </div>
+            <div class="slide">
+                <img src="./img/gsmarena_006.jpg" alt="Featured Product 3" class="slider-image">
+                <div class="image-caption">Stylish Enclosure</div>
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+    </section>
+    <!-- Third Section -->
+    <section class="third-section">
+    <h2>Discover Our Latest Products</h2>
+    <div class="product-cards">
+        <!-- iPhone 15 Card -->
+        <div class="product-card">
+            <img src="./img/iphone 15.jpeg" alt="iPhone 15" class="product-image">
+            <div class="product-info">
+                <h3>iPhone 15</h3>
+                <p>Discover the next-generation iPhone with cutting-edge features and performance.</p>
+            </div>
+        </div>
+
+        <!-- Apple Watch Series 9 Card -->
+        <div class="product-card">
+            <img src="./img/watch 9.jpeg" alt="Apple Watch Series 9" class="product-image">
+            <div class="product-info">
+                <h3>Apple Watch Series 9</h3>
+                <p>Experience the latest advancements in smartwatch technology with the Apple Watch Series 9.</p>
+            </div>
+        </div>
+
+        <!-- MacBook Pro Card -->
+        <div class="product-card">
+            <img src="./img/mac.jpeg" alt="MacBook Pro" class="product-image">
+            <div class="product-info">
+                <h3>MacBook Pro</h3>
+                <p>Unleash your creativity with the powerful and sleek MacBook Pro, designed for professionals.</p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- Fourth Section -->
+<section class="fourth-section">
+    <div class="gradient-image">
+        <img src="./img/engrave.jpeg" alt="Your Image" class="full-width-image">
+        <div class="gradient-overlay"></div>
+        <div class="text">
+            <h2>So many more ways to say it.</h2>
+            <p>Engrave your AirPods with a mix of emoji, names, initials, and numbers — free. Only at Apple.</p>
+        </div>
+    </div>
+</section>
+<footer id="footer"></footer>
+
+</body>
+</html>
